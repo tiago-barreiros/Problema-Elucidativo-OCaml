@@ -1,0 +1,11 @@
+(* Problema A )
+
+( Função recursiva para calcular metade da soma inicial se a mesma for par - Luís Sá )
+
+( 1º opção )
+let rec metade_soma m = if (m mod 2 == 0) then m / 2  else 0 ;;
+
+( 2º opção *)
+let rec metadesoma2 = function
+                      |n when (n mod 2 == 0) -> n / 2
+                      | -> 0
